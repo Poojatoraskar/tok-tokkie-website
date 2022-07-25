@@ -1,6 +1,6 @@
 .onlinebooking {
     padding-top: 50px;
-
+    color: white;
     .clear {
         clear: both;
     }
@@ -15,7 +15,7 @@
         margin: 0 auto;
         text-align: left;
         padding: 50px;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(14, 9, 9, 0.8);
         // background-color: red;
 
         @include breakpoint(lg) {
@@ -38,11 +38,13 @@
 
     h2 {
 
-        font-size: 15px;
+        font-size: 25px;
         padding-bottom: 15px;
         text-align: center;
         border-bottom: 1px solid #EEE;
         margin-bottom: 20px;
+        color:#99ec2b;
+        font-weight: 300;
     }
 
     .commen-padding{
@@ -51,6 +53,7 @@
 
     .wthreelable {
         width: 30%;
+        color: white;
         float: left;
     }
 
@@ -73,6 +76,7 @@
     span.agiledest-lable,
     span.aitsjourney-lable {
         float: left;
+        color: white;
     }
 
     .colon {

@@ -352,6 +352,7 @@ p {
 
 .onlinebooking {
   padding-top: 50px;
+  color: white;
 }
 .onlinebooking .clear {
   clear: both;
@@ -364,7 +365,7 @@ p {
   margin: 0 auto;
   text-align: left;
   padding: 50px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(14, 9, 9, 0.8);
 }
 @media (max-width: 1200px) {
   .onlinebooking .inner-booking {
@@ -387,17 +388,20 @@ p {
   }
 }
 .onlinebooking h2 {
-  font-size: 15px;
+  font-size: 25px;
   padding-bottom: 15px;
   text-align: center;
   border-bottom: 1px solid #EEE;
   margin-bottom: 20px;
+  color: #99ec2b;
+  font-weight: 300;
 }
 .onlinebooking .commen-padding {
   padding: 15px 0;
 }
 .onlinebooking .wthreelable {
   width: 30%;
+  color: white;
   float: left;
 }
 .onlinebooking .onlinebook-input {
@@ -419,6 +423,7 @@ p {
 .onlinebooking span.agiledest-lable,
 .onlinebooking span.aitsjourney-lable {
   float: left;
+  color: white;
 }
 .onlinebooking .colon {
   float: right;
